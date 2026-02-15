@@ -23,10 +23,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(VECTOR_DB_PATH, exist_ok=True)
 
 # Initialize embeddings
-embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2",
-    model_kwargs={'device': 'cpu'}
-)
+
 
 # Initialize vector store
 vectorstore = None
