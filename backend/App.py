@@ -34,7 +34,7 @@ documents_corpus = []  # For BM25
 document_chunks = []  # Store chunks with metadata
 
 # Initialize LLM (using Ollama - you can switch to OpenAI/Anthropic)
-llm = Ollama(  # or use "mistral", "codellama"
+llm = Ollama(model="tinyllama")  # or use "mistral", "codellama"
 
 def load_document(file_path):
     """Load document based on file type"""
