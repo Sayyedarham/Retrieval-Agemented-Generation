@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Upload, Search, FileText, Download, Loader2, Book, Sparkles, AlertCircle, CheckCircle, XCircle } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+
 
 export default function ResearchAssistant() {
   const [documents, setDocuments] = useState([]);
