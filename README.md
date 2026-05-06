@@ -1,12 +1,9 @@
-from pathlib import Path
-
-readme = """# RagProject
-
+# RagProject
 A local Retrieval-Augmented Generation (RAG) pipeline that lets you upload documents and ask questions against them with hybrid retrieval.
-
+cc
 ## Overview
 
-**RagProject** is a document Q&A system built to:
+**RagProject** is a docccccument Q&A system built to:
 - ingest files such as PDF, TXT, and DOCX
 - split them into chunks
 - index them with both vector search and keyword search
