@@ -1,4 +1,4 @@
-# RagProject
+# Rag Project
 A local Retrieval-Augmented Generation (RAG) pipeline that lets you upload documents and ask questions against them with hybrid retrieval.
 cc
 ## Overview
