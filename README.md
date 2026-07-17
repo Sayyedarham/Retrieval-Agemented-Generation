@@ -1,4 +1,4 @@
-# Ratrieval Augmented generation pipeline
+# Retrieval Augmented generation pipeline
 A local Retrieval-Augmented Generation (RAG) pipeline that lets you upload documents and ask questions against them with hybrid retrieval.
 cc
 ## Overview
